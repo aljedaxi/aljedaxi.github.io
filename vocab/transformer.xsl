@@ -47,35 +47,35 @@
 								</dd>
 							</dl>
 						</section>
+						<section>
+							<h2>Classes</h2>
+							<xsl:for-each select="class">
+								<section id="{id}" about="[{/owl:Ontology/vann:preferredNamespacePrefix}:{rdfs:label}]" typeof="owl:Class">
+									<h3 property="rdfs:label">
+										<xsl:value-of select="rdfs:label"/>
+									</h3>
+									<p property="skos:definition">
+										<xsl:copy-of select="skos:definition/*"/>
+									</p>
+									<xsl:for-each select="skos:editorialNote">
+										<aside property="skos:editorialNote">
+											<p>
+												<xsl:copy-of select="*"/>
+											</p>
+										</aside>
+									</xsl:for-each>
+									<dl>
+										<dt>Subclass of:</dt>
+										<dd>
+											<a rel="rdfs:subClassOf" href="{rdfs:subClassOf/url}"> <!-- TODO href -->
+												<xsl:value-of select="rdfs:subClassOf/label"/>
+											</a>
+										</dd>
+									</dl>
+								</section>
+							</xsl:for-each>
+						</section>
 					</article>
-					<section>
-						<h2>Classes</h2>
-						<xsl:for-each select="class">
-							<section id="{id}" about="[{/owl:Ontology/vann:preferredNamespacePrefix}:{rdfs:label}]" typeof="owl:Class">
-								<h3 property="rdfs:label">
-									<xsl:value-of select="rdfs:label"/>
-								</h3>
-								<p property="skos:definition">
-									<xsl:copy-of select="skos:definition/*"/>
-								</p>
-								<xsl:for-each select="skos:editorialNote">
-									<aside property="skos:editorialNote">
-										<p>
-											<xsl:copy-of select="*"/>
-										</p>
-									</aside>
-								</xsl:for-each>
-								<dl>
-									<dt>Subclass of:</dt>
-									<dd>
-										<a rel="rdfs:subClassOf" href="{rdfs:subClassOf/url}"> <!-- TODO href -->
-											<xsl:value-of select="rdfs:subClassOf/label"/>
-										</a>
-									</dd>
-								</dl>
-							</section>
-						</xsl:for-each>
-					</section>
 				</main>
 			</body>
 		</html>
