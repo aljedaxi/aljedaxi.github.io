@@ -1,0 +1,5 @@
+start: !!timestamp 2025-12-18T19:00:00-07:00
+end: !!timestamp 2025-12-18T21:00:00-07:00
+summary: sample event2
+description: fuck what it sounds like man that's some cold shit
+location: movie room!
