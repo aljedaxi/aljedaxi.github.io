@@ -1,0 +1,24 @@
+{
+  "name": "aljedaxi.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/aljedaxi/aljedaxi.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/aljedaxi/aljedaxi.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljedaxi/aljedaxi.github.io.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ical-generator": "^10.0.0",
+    "yaml": "^2.8.2"
+  }
+}
