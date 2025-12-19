@@ -1,0 +1,5 @@
+start: !!timestamp 2026-01-03T19:00:00-07:00
+end: !!timestamp 2026-01-03T21:00:00-07:00
+summary: National Lampoon's Christmas Vacation
+description: we'll meet in the Sasso movie room, make popcorn, and watch National Lampoon's Chrstmas Vacation
+location: Sasso Movie Room (1410 1 st se)

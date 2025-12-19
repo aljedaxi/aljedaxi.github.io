@@ -2,23 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 BEGIN:VEVENT
-UID:3cb6116c-c7e5-4b97-b061-d430e37420ab
+UID:c48bdbaf-7894-4ebb-9090-a50fa83fd94a
 SEQUENCE:0
-DTSTAMP:20251207T051253Z
-DTSTART:20251218T020000Z
-DTEND:20251218T040000Z
-SUMMARY:sample event
-LOCATION:movie room!
-DESCRIPTION:fuck what it sounds like man that's some cold shit
-END:VEVENT
-BEGIN:VEVENT
-UID:146e5982-e28e-455e-acff-ad58dbb1e5c4
-SEQUENCE:0
-DTSTAMP:20251207T051253Z
-DTSTART:20251219T020000Z
-DTEND:20251219T040000Z
-SUMMARY:sample event2
-LOCATION:movie room!
-DESCRIPTION:fuck what it sounds like man that's some cold shit
+DTSTAMP:20251219T050741Z
+DTSTART:20260104T020000Z
+DTEND:20260104T040000Z
+SUMMARY:National Lampoon's Christmas Vacation
+LOCATION:Sasso Movie Room (1410 1 st se)
+DESCRIPTION:we'll meet in the Sasso movie room\, make popcorn\, and watch 
+ National Lampoon's Chrstmas Vacation
 END:VEVENT
 END:VCALENDAR
